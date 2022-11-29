@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//MATEO
 namespace DataLayerAPI
 {
     public class mangaRebyuDataManga
@@ -13,7 +13,7 @@ namespace DataLayerAPI
 
         static mangaRebyuDataManga()
         {
-            conexion = new SqlConnection(@"Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-EQLJBRJ");
+            conexion = new SqlConnection(@"Password=Contraseña123;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-HTIGAP3\SQLEXPRESS");
         }
         public static bool createRegisterManga(string username, string manga, int rating, string coment)
         {
@@ -42,10 +42,10 @@ namespace DataLayerAPI
             }
         }
 
-        public static Dictionary<string, List<string>> sendDataMovil(string idManga)
+        public static List<List<string>> sendDataMovil(string idManga)
         {
             conexion.Open();
-            Dictionary<string, List<string>> data = new Dictionary<string, List<string>>();
+            List<List<string>> data = new List<List<string>>();
             string value1;
 
             string select = string.Format(
@@ -61,7 +61,7 @@ namespace DataLayerAPI
                 List<string> values = new List<string>();
                 values.Add(dataReader.GetValue(3).ToString());
                 values.Add(dataReader.GetValue(4).ToString());
-                data.Add(dataReader.GetValue(1).ToString(),values);
+                data.Add(values);
             }
             conexion.Close();
 

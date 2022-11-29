@@ -2,6 +2,6 @@
 {
     public class ResponseSendDataMovil
     {
-        public Dictionary<string, List<string>> data { get; set; }
+        public List<List<string>> data { get; set; }
     }
 }

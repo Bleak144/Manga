@@ -8,7 +8,7 @@ namespace DataLayerAPI
 
         static mangaRebyuDataUser()
         {
-            conexion = new SqlConnection(@"Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-EQLJBRJ");
+            conexion = new SqlConnection(@"Password=Contraseña123;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-HTIGAP3\SQLEXPRESS");
         }
         public static bool createRegister(string username, string password)
         {
@@ -35,14 +35,14 @@ namespace DataLayerAPI
             }
         }
 
-        public static bool searchIncome(string password)
+        public static bool searchIncome(string username, string password)
         {
-            string username;
             int i = 0;
             conexion.Open();
             string select = string.Format(
-                "SELECT * FROM Users WHERE password = '{0}'",
-                password
+                "SELECT * FROM Users WHERE password = '{0}' AND username = '{1}'",
+                password,
+                username
                 );
             SqlCommand comando = new SqlCommand(select, conexion);
 
