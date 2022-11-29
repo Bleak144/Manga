@@ -4,6 +4,9 @@
     <Compile Update="CustomizableButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="CustomizableTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>

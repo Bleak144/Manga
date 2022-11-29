@@ -101,19 +101,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Mateo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\obj\\",
+      "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga-Rebyu\\mangaRebyuDesktop\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -160,7 +160,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
