@@ -21,17 +21,25 @@ namespace DataLayerAPI
 
             SqlCommand comando = new SqlCommand(insert, conexion);
 
-            int rows = comando.ExecuteNonQuery();
+            try
+            {
+                int rows = comando.ExecuteNonQuery();
 
-            if (rows == 0)
+                if (rows == 0)
+                {
+                    conexion.Close();
+                    return false;
+                }
+                else
+                {
+                    conexion.Close();
+                    return true;
+                }
+            }
+            catch (System.Data.SqlClient.SqlException)
             {
                 conexion.Close();
                 return false;
-            }
-            else
-            {
-                conexion.Close();
-                return true;
             }
         }
 
