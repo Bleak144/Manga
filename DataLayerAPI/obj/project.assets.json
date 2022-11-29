@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateo\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Proyectos Visual Studio\\mangaRebyuAPI\\DataLayerAPI\\DataLayerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj",
       "projectName": "DataLayerAPI",
-      "projectPath": "D:\\Documentos\\Proyectos Visual Studio\\mangaRebyuAPI\\DataLayerAPI\\DataLayerAPI.csproj",
-      "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Proyectos Visual Studio\\mangaRebyuAPI\\DataLayerAPI\\obj\\",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\Manga-Rebyu\\DataLayerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -529,7 +529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

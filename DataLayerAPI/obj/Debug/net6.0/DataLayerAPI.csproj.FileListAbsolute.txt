@@ -10,3 +10,15 @@ D:\Documentos\Proyectos Visual Studio\mangaRebyuAPI\DataLayerAPI\obj\Debug\net6.
 D:\Documentos\Proyectos Visual Studio\mangaRebyuAPI\DataLayerAPI\obj\Debug\net6.0\refint\DataLayerAPI.dll
 D:\Documentos\Proyectos Visual Studio\mangaRebyuAPI\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.pdb
 D:\Documentos\Proyectos Visual Studio\mangaRebyuAPI\DataLayerAPI\obj\Debug\net6.0\ref\DataLayerAPI.dll
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.deps.json
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.dll
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.pdb
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.AssemblyInfo.cs
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.dll
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\refint\DataLayerAPI.dll
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.pdb
+C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\ref\DataLayerAPI.dll

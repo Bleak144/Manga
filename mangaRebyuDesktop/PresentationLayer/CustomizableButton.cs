@@ -28,7 +28,7 @@ namespace PresentationLayer
         [Category("Custom Advance")]
         public int BorderRadius
         {
-            get { return borderSize; }
+            get { return borderRadius; }
             set { borderRadius = value; this.Invalidate(); }
         }
 

@@ -13,7 +13,7 @@ namespace DataLayerAPI
 
         static mangaRebyuDataManga()
         {
-            conexion = new SqlConnection(@"Password=Contraseña123;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-HTIGAP3\SQLEXPRESS");
+            conexion = new SqlConnection(@"Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-EQLJBRJ");
         }
         public static bool createRegisterManga(string username, string manga, int rating, string coment)
         {
