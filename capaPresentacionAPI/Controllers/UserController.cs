@@ -24,7 +24,7 @@ namespace capaPresentacionAPI.Controllers
         public ResponseLogin Login([FromQuery]RequestLogin request)
         {
             ResponseLogin response = new ResponseLogin();
-            response.result = mangaRebyuDataUser.searchIncome(request.password);
+            response.result = mangaRebyuDataUser.searchIncome(request.userName,request.password);
             return response;
         }
     }

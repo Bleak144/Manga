@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.tbUsuario = new System.Windows.Forms.TextBox();
             this.tbContraseña = new System.Windows.Forms.TextBox();
-            this.btnEntrar = new System.Windows.Forms.Button();
             this.btnBack = new PresentationLayer.CustomizableButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnEntrar = new PresentationLayer.CustomizableButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,23 +48,14 @@
             // 
             // tbContraseña
             // 
+            this.tbContraseña.BackColor = System.Drawing.SystemColors.MenuBar;
             this.tbContraseña.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.tbContraseña.Location = new System.Drawing.Point(300, 249);
             this.tbContraseña.Name = "tbContraseña";
+            this.tbContraseña.PasswordChar = '*';
             this.tbContraseña.PlaceholderText = "Contraseña...";
             this.tbContraseña.Size = new System.Drawing.Size(186, 23);
             this.tbContraseña.TabIndex = 1;
-            // 
-            // btnEntrar
-            // 
-            this.btnEntrar.ForeColor = System.Drawing.Color.Black;
-            this.btnEntrar.Location = new System.Drawing.Point(300, 361);
-            this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(186, 62);
-            this.btnEntrar.TabIndex = 4;
-            this.btnEntrar.Text = "button1";
-            this.btnEntrar.UseVisualStyleBackColor = true;
-            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnBack
             // 
@@ -95,18 +87,39 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // btnEntrar
+            // 
+            this.btnEntrar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnEntrar.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnEntrar.BorderColor = System.Drawing.Color.White;
+            this.btnEntrar.BorderRadius = 50;
+            this.btnEntrar.BorderSize = 0;
+            this.btnEntrar.FlatAppearance.BorderSize = 0;
+            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEntrar.ForeColor = System.Drawing.Color.Black;
+            this.btnEntrar.Location = new System.Drawing.Point(332, 352);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(121, 49);
+            this.btnEntrar.TabIndex = 8;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.TextColor = System.Drawing.Color.Black;
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click_1);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnEntrar);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.tbContraseña);
             this.Controls.Add(this.tbUsuario);
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.SystemColors.Control;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Login";
             this.Text = "Login";
@@ -121,8 +134,8 @@
 
         private TextBox tbUsuario;
         private TextBox tbContraseña;
-        private Button btnEntrar;
         private CustomizableButton btnBack;
         private PictureBox pictureBox1;
+        private CustomizableButton btnEntrar;
     }
 }

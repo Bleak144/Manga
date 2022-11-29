@@ -29,50 +29,7 @@ namespace PresentationLayer
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            RequestLogin peticion = new RequestLogin();
-            peticion.userName = tbUsuario.Text.ToString();
-            peticion.password = tbContraseña.Text.ToString();
-
-            string url = @"http://localhost:5142/api/consultarIngreso";
-
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             
-
-            request.Method = "GET";
-
-            request.ContentType= "application/json";
-
-            request.Accept= "application/json";
-
-            string body = JsonConvert.SerializeObject(peticion);
-
-            
-
-            var streamWriter = new StreamWriter(request.GetRequestStream());
-            streamWriter.Write(body);
-            streamWriter.Flush();
-            streamWriter.Close();
-
-            //WebRequest oRequest = WebRequest.Create(url);
-            //WebResponse oResponse = oRequest.GetResponse();
-            //StreamReader sr = new StreamReader(oResponse.GetResponseStream());
-            //await sr.ReadToEndAsync();
-
-            try
-            {
-                WebResponse response = request.GetResponse();
-                Stream streamReader = response.GetResponseStream ();
-                StreamReader objReader = new StreamReader(streamReader);
-                string respuesta = objReader.ReadToEnd();
-                ResponseLogin result = JsonConvert.DeserializeObject<ResponseLogin>(respuesta);
-
-                MessageBox.Show("El resultado es "+ result.ToString());
-                    
-            }
-            catch
-            {
-                MessageBox.Show("FEO FEO FEO");
-            }
         }
 
         private void customizableButton1_Click(object sender, EventArgs e)
@@ -85,6 +42,54 @@ namespace PresentationLayer
             this.Hide();
             Start start = new Start();
             start.Show();
+        }
+
+        private void btnEntrar_Click_1(object sender, EventArgs e)
+        {
+            RequestLogin peticion = new RequestLogin();
+
+
+
+            string url = @"http://localhost:5142/api/consultarIngreso?userName=" + tbUsuario.Text + "&password=" + tbContraseña.Text;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+
+            request.Method = "GET";
+
+            request.ContentType = "application/json";
+
+            request.Accept = "application/json";
+
+
+            try
+            {
+                WebResponse response = request.GetResponse();
+                Stream streamReader = response.GetResponseStream();
+                StreamReader objReader = new StreamReader(streamReader);
+                string respuesta = objReader.ReadToEnd();
+                ResponseLogin result = JsonConvert.DeserializeObject<ResponseLogin>(respuesta);
+                Console.WriteLine(result);
+
+                if (result.result)
+                {
+                    this.Hide();
+                    Record record = new Record();
+                    record.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña o Usuario incorrecto");
+                }
+
+
+
+
+            }
+            catch
+            {
+                MessageBox.Show("Error al conectarse al sistema.");
+            }
         }
     }
 }

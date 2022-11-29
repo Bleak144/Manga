@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSignUp = new PresentationLayer.CustomizableButton();
             this.btnLogIn = new PresentationLayer.CustomizableButton();
@@ -94,6 +95,7 @@
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Start";
             this.Text = "Inicio";

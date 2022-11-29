@@ -28,7 +28,8 @@ namespace PresentationLayer
         private bool isPlaceholder = false;
         private bool isPasswordChar = false;
 
-        public CustomizableTextBox()
+        public 
+            CustomizableTextBox()
         {
             InitializeComponent();
         }

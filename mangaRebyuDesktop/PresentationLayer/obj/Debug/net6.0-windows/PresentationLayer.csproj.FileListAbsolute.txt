@@ -91,3 +91,4 @@ D:\Documentos\Proyecto Final Ing. Soft\Manga-Rebyu\mangaRebyuDesktop\Presentatio
 D:\Documentos\Proyecto Final Ing. Soft\Manga-Rebyu\mangaRebyuDesktop\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.pdb
 D:\Documentos\Proyecto Final Ing. Soft\Manga-Rebyu\mangaRebyuDesktop\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.genruntimeconfig.cache
 D:\Documentos\Proyecto Final Ing. Soft\Manga-Rebyu\mangaRebyuDesktop\PresentationLayer\obj\Debug\net6.0-windows\ref\PresentationLayer.dll
+C:\Users\User\source\repos\Manga-Rebyu\mangaRebyuDesktop\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.CustomizableTextBox.resources

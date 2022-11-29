@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4u8VBaojL8l91ChH6Qa8+gOYf08lDLcING9+YEZ5Uj/rKEemvfFRQvTd3N78BDfX8TYWCZP2y11S3Y666kw+iA==",
+  "dgSpecHash": "hB7keoEQDBrtAGFYYzWQoBF2BboyO4ICkMu2kGyRgGZlqlbAredv8oSOsyXRBahjRTTt+R+ZSjMoh1buTkgofg==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga-Rebyu\\mangaRebyuDesktop\\PresentationLayer\\PresentationLayer.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\mangaRebyuDesktop\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mateo\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\Mateo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
