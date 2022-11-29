@@ -59,6 +59,8 @@ namespace DataLayerAPI
             while (dataReader.Read())
             {
                 List<string> values = new List<string>();
+                values.Add(dataReader.GetValue(0).ToString());
+                values.Add(dataReader.GetValue(1).ToString());
                 values.Add(dataReader.GetValue(3).ToString());
                 values.Add(dataReader.GetValue(4).ToString());
                 data.Add(values);
