@@ -12,7 +12,6 @@ using Newtonsoft.Json;
 using PresentationLayer.Models;
 
 
-
 namespace PresentationLayer
 {
     public partial class Login : Form
@@ -46,7 +45,7 @@ namespace PresentationLayer
 
         private void btnEntrar_Click_1(object sender, EventArgs e)
         {
-            RequestLogin peticion = new RequestLogin();
+           
 
 
 
@@ -69,8 +68,8 @@ namespace PresentationLayer
                 StreamReader objReader = new StreamReader(streamReader);
                 string respuesta = objReader.ReadToEnd();
                 ResponseLogin result = JsonConvert.DeserializeObject<ResponseLogin>(respuesta);
-                Console.WriteLine(result);
-
+                
+                System.Diagnostics.Debug.WriteLine(result.result);
                 if (result.result)
                 {
                     this.Hide();

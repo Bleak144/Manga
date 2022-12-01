@@ -2,6 +2,6 @@
 {
     public class ResponseSendDataDesktop
     {
-        public Dictionary<string, List<string>> data { get; set; }
+        public List<List<string>> info { get; set; }
     }
 }

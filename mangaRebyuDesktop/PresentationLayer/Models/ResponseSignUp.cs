@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PresentationLayer.Models
 {
-    internal class ResponseSignUp
+    public class ResponseSignUp
     {
+        public bool result { get; set; }
     }
 }

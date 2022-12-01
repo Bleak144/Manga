@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "PresentationLayer/1.0.0": {
         "dependencies": {
+          "BusinessLayer": "1.0.0",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
@@ -32,6 +33,14 @@
             "fileVersion": "1.0.2.22727"
           }
         }
+      },
+      "BusinessLayer/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "runtime": {
+          "BusinessLayer.dll": {}
+        }
       }
     }
   },
@@ -54,6 +63,11 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

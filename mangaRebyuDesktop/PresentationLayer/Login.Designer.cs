@@ -40,6 +40,7 @@
             // tbUsuario
             // 
             this.tbUsuario.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tbUsuario.ForeColor = System.Drawing.Color.Black;
             this.tbUsuario.Location = new System.Drawing.Point(300, 151);
             this.tbUsuario.Name = "tbUsuario";
             this.tbUsuario.PlaceholderText = "Usuario...";
@@ -122,6 +123,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

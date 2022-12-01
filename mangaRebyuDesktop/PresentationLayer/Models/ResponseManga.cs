@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PresentationLayer.Models
 {
-    internal class ResponseSendDataDesktop
+    public class ResponseManga
     {
+        public object comics { get; set; }
     }
 }

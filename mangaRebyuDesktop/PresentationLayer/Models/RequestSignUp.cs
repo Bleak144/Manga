@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PresentationLayer.Models
 {
-    internal class RequestSignUp
+    public class RequestSignUp
     {
+        public string userName { get; set; }
+        public string password { get; set; }
     }
 }

@@ -31,7 +31,7 @@ namespace PresentationLayerAPI.Controllers
         public ResponseSendDataDesktop APIDesktop([FromQuery] RequestSendDataDesktop request)
         {
             ResponseSendDataDesktop response = new ResponseSendDataDesktop();
-            response.data = mangaRebyuDataManga.sendDataDesktop(request.flag);
+            response.info = mangaRebyuDataManga.sendDataDesktop();
             return response;
         }
     }

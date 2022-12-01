@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PresentationLayer.Models
 {
-    internal class RequestSenDataDesktop
+    internal class RequestSendDataDesktop
     {
     }
 }
