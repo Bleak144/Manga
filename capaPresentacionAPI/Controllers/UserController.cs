@@ -1,4 +1,5 @@
-﻿using capaPresentacionAPI.Models;
+﻿using BusinessLayer;
+using capaPresentacionAPI.Models;
 using DataLayerAPI;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,8 +15,9 @@ namespace capaPresentacionAPI.Controllers
         [Route("api/crearRegistro")]
         public ResponseSignUp SignUp([FromBody] RequestSignUp request)
         {
+            Business business = new Business(new mangaRebyuDataManga(),new mangaRebyuDataUser());
             ResponseSignUp response = new ResponseSignUp();
-            response.result = mangaRebyuDataUser.createRegister(request.userName, request.password);
+            response.result = business.createRegister(request.userName, request.password);
             return response;
         }
 
@@ -23,8 +25,9 @@ namespace capaPresentacionAPI.Controllers
         [Route("api/consultarIngreso")]
         public ResponseLogin Login([FromQuery]RequestLogin request)
         {
+            Business business = new Business(new mangaRebyuDataManga(), new mangaRebyuDataUser());
             ResponseLogin response = new ResponseLogin();
-            response.result = mangaRebyuDataUser.searchIncome(request.userName,request.password);
+            response.result = business.searchIncome(request.userName,request.password);
             return response;
         }
     }

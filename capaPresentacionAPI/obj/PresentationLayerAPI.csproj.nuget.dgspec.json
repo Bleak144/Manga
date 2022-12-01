@@ -1,20 +1,75 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\capaPresentacionAPI\\PresentationLayerAPI.csproj": {}
+    "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\capaPresentacionAPI\\PresentationLayerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\capaPresentacionAPI\\PresentationLayerAPI.csproj": {
+    "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\capaPresentacionAPI\\PresentationLayerAPI.csproj",
-        "projectName": "PresentationLayerAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\capaPresentacionAPI\\PresentationLayerAPI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\capaPresentacionAPI\\obj\\",
+        "projectUniqueName": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\capaPresentacionAPI\\PresentationLayerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\capaPresentacionAPI\\PresentationLayerAPI.csproj",
+        "projectName": "PresentationLayerAPI",
+        "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\capaPresentacionAPI\\PresentationLayerAPI.csproj",
+        "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\capaPresentacionAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +83,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj"
+              "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\DataLayerAPI.csproj": {
+                "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\DataLayerAPI.csproj"
               }
             }
           }
@@ -68,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj": {
+    "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\DataLayerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj",
+        "projectUniqueName": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\DataLayerAPI.csproj",
         "projectName": "DataLayerAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\DataLayerAPI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Manga-Rebyu\\DataLayerAPI\\obj\\",
+        "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\DataLayerAPI.csproj",
+        "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\DataLayerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,7 +153,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Documentos\\Proyecto Final Ing. Soft\\Manga\\BusinessLayer\\BusinessLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -129,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

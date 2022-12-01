@@ -1,16 +1,17 @@
 ﻿using System.Data.SqlClient;
+using BusinessLayer;
 
 namespace DataLayerAPI
 {
-    public class mangaRebyuDataUser
+    public class mangaRebyuDataUser : setDataUser
     {
-        private static SqlConnection conexion;
+        private SqlConnection conexion;
 
-        static mangaRebyuDataUser()
+        public mangaRebyuDataUser()
         {
-            conexion = new SqlConnection(@"Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-EQLJBRJ");
+            conexion = new SqlConnection(@"Password=Contraseña123;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-HTIGAP3\SQLEXPRESS");
         }
-        public static bool createRegister(string username, string password)
+        public bool createRegister(string username, string password)
         {
             conexion.Open();
 
@@ -43,7 +44,7 @@ namespace DataLayerAPI
             }
         }
 
-        public static bool searchIncome(string username, string password)
+        public bool searchIncome(string username, string password)
         {
             int i = 0;
             conexion.Open();

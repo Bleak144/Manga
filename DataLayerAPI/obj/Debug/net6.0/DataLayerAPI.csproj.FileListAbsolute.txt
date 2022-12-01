@@ -22,3 +22,18 @@ C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAP
 C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\refint\DataLayerAPI.dll
 C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.pdb
 C:\Users\User\source\repos\Manga-Rebyu\DataLayerAPI\obj\Debug\net6.0\ref\DataLayerAPI.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.deps.json
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\bin\Debug\net6.0\DataLayerAPI.pdb
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.csproj.AssemblyReference.cache
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.AssemblyInfoInputs.cache
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.AssemblyInfo.cs
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\refint\DataLayerAPI.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.pdb
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\ref\DataLayerAPI.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\bin\Debug\net6.0\BusinessLayer.dll
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\bin\Debug\net6.0\BusinessLayer.pdb
+D:\Documentos\Proyecto Final Ing. Soft\Manga\DataLayerAPI\obj\Debug\net6.0\DataLayerAPI.csproj.CopyComplete

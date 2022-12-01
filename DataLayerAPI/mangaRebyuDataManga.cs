@@ -4,18 +4,19 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//MATEO
+using BusinessLayer;
+
 namespace DataLayerAPI
 {
-    public class mangaRebyuDataManga
+    public class mangaRebyuDataManga : setDataManga
     {
-        private static SqlConnection conexion;
+        private SqlConnection conexion;
 
-        static mangaRebyuDataManga()
+        public mangaRebyuDataManga()
         {
-            conexion = new SqlConnection(@"Password=sa;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-EQLJBRJ");
+            conexion = new SqlConnection(@"Password=Contraseña123;Persist Security Info=True;User ID=sa;Initial Catalog=mangaRebyu;Data Source=DESKTOP-HTIGAP3\SQLEXPRESS");
         }
-        public static bool createRegisterManga(string username, string manga, int rating, string coment)
+        public bool createRegisterManga(string username, string manga, int rating, string coment)
         {
             conexion.Open();
 
@@ -42,7 +43,7 @@ namespace DataLayerAPI
             }
         }
 
-        public static List<List<string>> sendDataMovil(string idManga)
+        public List<List<string>> sendDataMovil(string idManga)
         {
             conexion.Open();
             List<List<string>> data = new List<List<string>>();
@@ -69,7 +70,7 @@ namespace DataLayerAPI
 
             return data;
         }
-        public static List<List<string>> sendDataDesktop()
+        public List<List<string>> sendDataDesktop()
         {
             conexion.Open();
             List<List<string>> data = new List<List<string>>();
